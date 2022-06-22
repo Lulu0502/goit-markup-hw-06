@@ -499,8 +499,6 @@ h1, h2, h3, h4, h5, h6, p {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-
 }
 .logo-footer:focus {
     margin-top: 60px;
@@ -544,7 +542,6 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-soc {
     display: block;
     margin: 0px;
-    
 }
 .title-footer {
     margin-top: 0px;
@@ -740,4 +737,73 @@ h1, h2, h3, h4, h5, h6, p {
     background-color: #ffffff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+}
+                                         /*-----------footer-modal------------*/
+
+.footer-modal-form {
+    display: block;
+    margin-left: 93px;
+    padding-bottom: 0;
+}
+.footer-label {
+    display: flex;
+}
+.footer-form-title{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-family: inherit;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.modal-input {
+    background-color: transparent;
+    margin-right: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    margin-bottom: 0px;
+    color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+}
+.modal-input::placeholder {
+    font-size: inherit;
+    line-height: 1.2;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-submit {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    background-color: #2196f3;
+    border: 0px;
+    border-radius: 4px;
+}
+.modal-link {
+    margin-left: 0px;
+    margin-right: 13px;
+    color: #ffffff;
+}
+.submit-btn {
+    background-color: #2196f3;
+    color: #ffffff;
+    border: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 29px;
+    padding: 0;
+    
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 }
